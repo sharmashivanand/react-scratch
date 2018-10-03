@@ -1,0 +1,14 @@
+{
+  "name": "react-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+      "start" : "webpack-dev-server --watch --compress --config webpack.config.js --inline --hot --content-base dist/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "webpack": "^4.20.2"
+  }
+}
